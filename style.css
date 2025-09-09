@@ -404,11 +404,13 @@ header{
 }
 
 .hero_contenedor_derecha img {
-    width: 100%;
+    max-width: 100%;
+    /*width: 100%;
     max-width: 600px;
-    height: auto;
+    height: auto;*/
 }
 
+/*
 @media screen and (max-width: 1126px){
     .hero_contenedor_derecha img{
         width: 688px;
@@ -429,7 +431,7 @@ header{
         max-height: 100%;
     }
 }
-
+*/
 
 
 
