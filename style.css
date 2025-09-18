@@ -64,6 +64,10 @@ header{
     white-space: nowrap;
 }
 
+.header_nav_anclas a:hover{
+    color: #6d7081;
+}
+
 .header_botones_derechos{
     display: flex;
     flex-direction: row;
@@ -81,6 +85,10 @@ header{
     align-items: center;
     gap: 5px;
     white-space: nowrap;
+}
+
+.header_botones_derechos .pais span:hover{
+    color: #6d7081;
 }
 
 .header_botones_derechos .pais img{
@@ -102,6 +110,10 @@ header{
     padding: 11px 20px;
     border-radius: 8px;
     text-align: center;  
+}
+
+.header_botones_derechos .cuenta:hover{
+    border: 1px solid #d8dae0;
 }
 
 .menu_mobile{
@@ -327,6 +339,10 @@ header{
     justify-content: center;  
 }
 
+.hero_boton:hover{
+    background-color: #5025d1;
+}
+
 .hero_boton span{
     color: white;
     font-size: 16px;
@@ -538,7 +554,7 @@ header{
 .boton{
     width: 140px;
     height: 40px;
-    background-color: #5025d1;
+    background-color: #673DE6;
     color: white;
     border: none;
     border-radius: 10px;
@@ -546,6 +562,9 @@ header{
     font-size: 16px;
 }
 
+.boton:hover{
+    background-color: #5025d1;
+}
 
 
 
@@ -570,6 +589,10 @@ header{
     bottom: 12px;
     right: 12px;
     white-space: nowrap;
+}
+
+.button_kodee:hover{
+    background-color: #5025d1;
 }
 
 .button_kodee span{
@@ -602,6 +625,7 @@ footer{
     display: flex;
     flex-direction: column;
     padding: 10px;
+    max-width: 1100px;
 }
 
 .footer_logo_y_redes{
@@ -637,6 +661,11 @@ footer{
     align-items: center;
     width: 200px;
     gap: 20px;
+    cursor: pointer;
+}
+.footer_logo_y_redes_derecha div:hover{
+    color: #6d7081;;
+    
 }
 @media screen and (max-width: 760px){
     .footer_logo_y_redes_derecha{
@@ -649,7 +678,7 @@ footer{
     }
 }
 
-.footer_logo_y_redes_derecha svg{
+.footer_logo_y_redes_derecha div{
     width: 32px;
     height: 32px;
 }
@@ -662,6 +691,8 @@ footer{
     margin: 30px 0px;  
     
 }
+
+
 
 @media screen and (max-width: 1200px){
     .footer_tarjetas_y_politicas{
@@ -702,6 +733,9 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+.footer_tarjetas_y_politicas_derecha a:hover{
+    color: #5025d1;
 }
 @media screen and (max-width: 760px){
     .footer_tarjetas_y_politicas_derecha{
